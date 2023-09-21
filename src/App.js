@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header ">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,6 +18,36 @@ function App() {
           Learn React
         </a>
       </header>
+      <main className='window'>
+        {/* 1 */}
+        <div className='App-data'>
+          <h1 className='data-left'>
+            text
+          </h1>
+          <div className='data-right'>
+            <img className='' src={"logo.png"} width="50" height="50"/>
+          </div>
+        </div>
+        {/* 2 */}
+        <div className='App-data'>
+          <h1 className='data-left'>
+            text
+          </h1>
+          <div className='data-right'>
+            <img className='' src={"logo.png"} width="50" height="50"/>
+          </div>
+        </div>
+        {/* 3 */}
+        <div className='App-data'>
+          <h1 className='data-left'>
+            text
+          </h1>
+          <div className='data-right'>
+            <img className='' src={"logo.png"} width="50" height="50"/>
+          </div>
+        </div>
+
+      </main>
     </div>
   );
 }
